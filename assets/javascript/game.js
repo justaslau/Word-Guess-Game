@@ -65,8 +65,7 @@ function Game(playerName) {
 			myNode.removeChild(myNode.firstChild);
 		}
 		var x = document.querySelectorAll(".choice > p");
-		var i;
-		for (i = 0; i < x.length; i++) {
+		for ( var i = 0; i < x.length; i++) {
 			x[i].style.background = "rgba(0,0,0,0.5)";
 		}
 		var element = document.getElementById("guessesLeft");
