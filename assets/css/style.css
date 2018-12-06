@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0 90px;
+	background: #F3904F;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #3B4371, #F3904F);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #3B4371, #F3904F);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.alphabet {
+	display: flex;
+	justify-content: center;
+}
+#image {
+	display: flex;
+	justify-content: center;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	margin-top: -65px;
+}
+.alphabet div p {
+	margin: 2px;
+	padding: 12px;
+	color: white;
+	border-radius: 1px;
+	min-width: 18px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#lettersList {
+	display: flex;
+	justify-content: center;
+}
+#lettersList p {
+	background-color: #fff;
+	margin: 10px;
+	border-radius: 8px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 32px;
+	min-width: 32px;
+	text-align: center;
+	padding: 5px 10px 10px 10px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+#question {
+	display: flex;
+	justify-content: center;
+}
+#question {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+}
+footer p {
+	margin-left: 35px;
+	font-weight: bold;
+}
+.inner {
+	display: flex;
+	justify-content: center;
+}
